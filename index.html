@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Krysta Lee's Personal Website</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&family=Fredoka+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="profile/1.svg" alt="Krysta Lee" style="width: 250px; height: auto; max-width: 100%; border-radius: 50%;">
+        </figure>
+        <div class="info-content">
+          <h1 class="name" title="Krysta Lee">Krysta Lee</h1>
+          <p class="title">Business Analyst & Educator</p>
+        </div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+        </button>
+      </div>
+      <div class="sidebar-info_more" data-sidebar-more>
+        <div class="separator"></div>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:lixin_krystalee@qq.com" class="contact-link">lixin_krystalee@qq.com</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+85246374447" class="contact-link">(+852) 4637-4447, (+86) 151-2105-2050</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Hong Kong | Shanghai</address>
+            </div>
+          </li>
+        </ul>
+        <div class="separator"></div>
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/xin-li-8968a3135/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <div class="main-content">
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>About</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Education</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Research</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Publications</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Skills</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Teaching</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Awards</button>
+          </li>
+        </ul>
+      </nav>
+
+      <article class="about active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About Me</h2>
+        </header>
+        <section class="about-text">
+          <h2>👋 Hi, I'm Krysta Lee</h2>
+          <p>1 on 1 tutored over 50 students with 10 YOE in K12 education, grammar end-gamer & critical thinking training. Douyin(Tiktok in China) single clip viewed over 20k, likes over 2k. Trilingual(Mandarin/English/Korean) business analyst with 5 YOE in Fortune 500.</p>
+          <p class="contact">📧 Want to discuss business analysis, education, or innovative ideas? Let's connect! 🚀</p>
+        </section>
+      </article>
+
+      <article class="education" data-page="education">
+        <header>
+          <h2 class="h2 article-title">
+            <ion-icon name="book-outline"></ion-icon> Education
+          </h2>
+        </header>
+        <section class="timeline" id="education-container">
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">The Chinese University of Hong Kong</h4>
+              <span class="graduation-date">Nov 2024</span>
+              <p class="degree">MSc</p>
+              <p class="field">Information Science and Technology Management</p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Fudan University</h4>
+              <span class="graduation-date">Jun 2018</span>
+              <p class="degree">BA</p>
+              <p class="field">Korean Languages and Literature & Minor in Economics</p>
+            </li>
+          </ol>
+        </section>
+      </article>
+
+      <article class="research" data-page="research">
+        <header>
+          <h2 class="h2 article-title">
+            <ion-icon name="flask-outline"></ion-icon> Work Experience
+          </h2>
+        </header>
+        <section class="timeline" id="experience-container">
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Business Analyst</h4>
+              <span class="duration">Jul 2018 - May 2023</span>
+              <p class="institution">SK Group</p>
+              <div class="description-container">
+                <ul class="description-list">
+                  <li>Conducted macroeconomic analysis, utilizing insights to clarify discrepancies between actual performance and forecasts.</li>
+                  <li>Designed & optimized models by dynamically integrating Sales, COGS, Inventory, and Import metrics via SAP and Excel.</li>
+                  <li>Delivered weekly global industry signpost covering multiple channels and dimensions on the Chinese and Global Packaging Market.</li>
+                  <li>Managed omni-channel market research, generating actionable insights for new business.</li>
+                  <li>Reviewed over 100 industry reports on The Sustainability of Global Food Flexible Packaging.</li>
+                </ul>
+              </div>
+              <div class="techniques-container">
+                <span class="technique-tag">SAP</span>
+                <span class="technique-tag">Excel</span>
+                <span class="technique-tag">Macroeconomic analysis</span>
+                <span class="technique-tag">Market research</span>
+              </div>
+            </li>
+          </ol>
+        </section>
+      </article>
+
+      <article class="projects" data-page="projects">
+        <header>
+          <h2 class="h2 article-title">
+            <ion-icon name="construct-outline"></ion-icon> Projects
+          </h2>
+        </header>
+        <section class="timeline" id="projects-container">
+          <ol class="timeline-list">
+            <li class="timeline-item project-item">
+              <h4 class="h4 project-title">Exhibition Management for Chinaplas in China & K Fair in Germany</h4>
+              <p class="project-duration">Dec 2018 - May 2023</p>
+              <p class="project-description">Led SK's exhibition strategy as an exhibitor at two major international trade fairs, implementing end-to-end project management methodologies.</p>
+              <div class="project-outcomes">
+                <h4>Outcomes:</h4>
+                <ul>
+                  <li>Developed comprehensive SOPs for full-staged exhibition management, reducing costs by 30-50%.</li>
+                  <li>Enhanced brand awareness & stakeholder engagement.</li>
+                </ul>
+              </div>
+            </li>
+            <li class="timeline-item project-item">
+              <h4 class="h4 project-title">SK-Fudan Scholarship Initiative</h4>
+              <p class="project-duration">Jun 2022 - May 2023</p>
+              <p class="project-description">Spearheaded school-enterprise cooperation under SK's ESG strategy, coordinating partnership development between SK and Fudan University.</p>
+              <div class="project-outcomes">
+                <h4>Outcomes:</h4>
+                <ul>
+                  <li>Secured an annual RMB 100,000 scholarship from SK for Fudan University students.</li>
+                  <li>Established a sustainable bridge between corporate and academic sectors.</li>
+                </ul>
+              </div>
+            </li>
+            <li class="timeline-item project-item">
+              <h4 class="h4 project-title">Precision Marketing – Predicting Repeat Buyers on Tmall</h4>
+              <p class="project-duration">Jan 2024 - Mar 2024</p>
+              <p class="project-description">Led a team to develop predictive models for identifying repeat buyers on Tmall using Python ML.</p>
+              <div class="project-tech">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Machine Learning</span>
+                <span class="tech-tag">XGBoost</span>
+              </div>
+              <div class="project-outcomes">
+                <h4>Outcomes:</h4>
+                <ul>
+                  <li>Achieved a 63% AUC score.</li>
+                  <li>Demonstrated impact on marketing strategy and operational efficiency.</li>
+                </ul>
+              </div>
+            </li>
+            <li class="timeline-item project-item">
+              <h4 class="h4 project-title">Module Customization on Salesforce</h4>
+              <p class="project-duration">Mar 2019 - May 2019</p>
+              <p class="project-description">Improved ROI on SK Group's Salesforce VIP account investment by customizing platform modules.</p>
+              <div class="project-tech">
+                <span class="tech-tag">Salesforce</span>
+              </div>
+              <div class="project-outcomes">
+                <h4>Outcomes:</h4>
+                <ul>
+                  <li>Increased platform adoption by 100%.</li>
+                </ul>
+              </div>
+            </li>
+          </ol>
+        </section>
+      </article>
+
+      <article class="skills" data-page="skills">
+        <header>
+          <h2 class="h2 article-title">
+            <ion-icon name="build-outline"></ion-icon> Technical Skills
+          </h2>
+        </header>
+        <section class="skills-container" id="technical-skills-container">
+          <div class="skills-group">
+            <h3 class="skills-category">Technical Skills</h3>
+            <ul class="skills-list">
+              <li class="skill-item">Python</li>
+              <li class="skill-item">SQL</li>
+              <li class="skill-item">PowerBI</li>
+              <li class="skill-item">SAP</li>
+              <li class="skill-item">Excel</li>
+              <li class="skill-item">Java</li>
+              <li class="skill-item">Solidity</li>
+              <li class="skill-item">Project Management</li>
+              <li class="skill-item">Strategic Information Systems</li>
+            </ul>
+          </div>
+        </section>
+      </article>
+
+      <article class="teaching" data-page="teaching">
+        <header>
+          <h2 class="h2 article-title">
+            <ion-icon name="school-outline"></ion-icon> Teaching Experience
+          </h2>
+        </header>
+        <section class="timeline" id="teaching-container">
+          <ol class="timeline-list">
+            <li class="timeline-item teaching-item">
+              <h4 class="h4 teaching-role">English Tutor</h4>
+              <p class="teaching-institution">Freelancer</p>
+              <p class="teaching-duration">11 years</p>
+              <div class="courses-container">
+                <h4>Courses:</h4>
+                <ul>
+                  <li>K12 in Shanghai</li>
+                </ul>
+              </div>
+            </li>
+          </ol>
+        </section>
+      </article>
+
+      <article class="awards" data-page="awards">
+        <header>
+          <h2 class="h2 article-title">
+            <ion-icon name="trophy-outline"></ion-icon> Honors & Awards
+          </h2>
+        </header>
+        <section class="timeline" id="awards-container">
+          <ol class="timeline-list">
+            <li class="timeline-item award-item">
+              <h4 class="h4 award-name">Dean's List Awardee</h4>
+              <p class="award-year">2024</p>
+              <p class="award-issuer">The Chinese University of Hong Kong</p>
+            </li>
+            <li class="timeline-item award-item">
+              <h4 class="h4 award-name">National Scholarship Recipient</h4>
+              <p class="award-year">2016</p>
+              <p class="award-issuer">CSC</p>
+            </li>
+            <li class="timeline-item award-item">
+              <h4 class="h4 award-name">Scholarship for Outstanding Students</h4>
+              <p class="award-year">2018</p>
+              <p class="award-issuer">Fudan University</p>
+            </li>
+          </ol>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <script>
+    'use strict';
+
+    // Toggle sidebar contacts
+    const sidebar = document.querySelector("[data-sidebar]");
+    const sidebarBtn = document.querySelector("[data-sidebar-btn]");
+    const sidebarMore = document.querySelector("[data-sidebar-more]");
+
+    sidebarBtn.addEventListener("click", function () {
+      sidebarMore.classList.toggle("active");
+      sidebarBtn.querySelector("span").textContent = sidebarMore.classList.contains("active") ? "Hide Contacts" : "Show Contacts";
+    });
+
+    // Handle navigation links
+    const navigationLinks = document.querySelectorAll("[data-nav-link]");
+    const pages = document.querySelectorAll("[data-page]");
+
+    navigationLinks.forEach((link) => {
+      link.addEventListener("click", function () {
+        navigationLinks.forEach(navLink => navLink.classList.remove("active"));
+        this.classList.add("active");
+
+        const pageName = this.textContent.toLowerCase().trim();
+        pages.forEach(page => page.classList.remove("active"));
+        const targetPage = document.querySelector(`[data-page="${pageName}"]`);
+        if (targetPage) {
+          targetPage.classList.add("active");
+          window.scrollTo(0, 0);
+        }
+      });
+    });
+  </script>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
